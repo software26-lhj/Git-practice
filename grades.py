@@ -22,7 +22,13 @@ def get_scores():
 
     return scores
 
+def calculate_average(scores):
+    """점수 딕셔너리를 받아 평균을 반환한다."""
+    if not scores:
+        return 0.0
+    return sum(scores.values()) / len(scores)
 
 if __name__ == "__main__":
     scores = get_scores()
     print("\n입력된 점수:", scores)
+
