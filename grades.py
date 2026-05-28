@@ -1,4 +1,5 @@
-# grades.py
+#gradebook v1.0 — 1주차 실습 완료
+#grades.py
 
 SUBJECTS = ["국어", "영어", "수학", "과탐"]
 
